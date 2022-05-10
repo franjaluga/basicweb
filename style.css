@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main {
+    width: 100vw;
+    height: 20vh;
+    background-color: lightblue;
+    text-align: right;
+}
+
+#logo {
+    text-align: left;
+}
+
+.main-list ul{
+    display:inline-block;
+}
+
+.main-list li{
+    padding-left: 10px;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+.content_left-bar {
+    width: 20vw;
+    height: 70vh;
+    background-color: aquamarine;
+    
+}
+
+.content_left-bar article{
+    background-color: peachpuff;
+    height: 50px;
+    width: 80%;
+    display: block;
+    border-color: brown;
+    border: solid 1px;
+    padding-top: 2px;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 3px;
+
+}
+
+.content_right-bar {
+    width: 80vw;
+    margin-left: 20vw;
+    margin-top: -70vh;
+    background-color:azure;
+    height: 70vh;
+}
+
+footer {
+    background-color: beige;
+    width: 100vw;
+    height: 10vh;
+}
